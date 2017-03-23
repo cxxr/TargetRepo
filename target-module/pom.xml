@@ -2,10 +2,10 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>example-module</artifactId>
+	<artifactId>target-module</artifactId>
 	<packaging>jar</packaging>
 	<version>1.0-SNAPSHOT</version>
-	<name>Example Module</name>
+	<name>Target Module</name>
 
 	<dependencies>
 		<dependency>
@@ -51,7 +51,7 @@
 
 	<parent>
 		<groupId>me.seancassidy</groupId>
-		<artifactId>example-repository</artifactId>
+		<artifactId>target-repo</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 
