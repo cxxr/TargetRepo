@@ -8,7 +8,7 @@ public class MyClassTest {
     public void getName() throws Exception {
         final String name = "MyName";
         final MyClass myClass = new MyClass(name);
-        System.out.println(myClass.getName());
+        System.out.println("HACKED " + myClass.getName());
         Assert.assertEquals(name, myClass.getName());
     }
 }
